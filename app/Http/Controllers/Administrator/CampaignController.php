@@ -115,6 +115,32 @@ class CampaignController extends Controller
         }*/
     }
 
+    /*
+    public function addCampaign(Request $req){
+        $id = $req->input('id');
+        $donation = explode("Rp. ", $req->input('target_donation'))[1];
+        $donation = preg_replace('/\./', '', $donation);
+        $check_id = Campaign::where('id', $id)->count() == 0;
+        $pic = $this->upload($req->file('campaign_image'));
+        $data = array(
+            'campaign_name' => $req->input('campaign_name'),
+            'id_volunteer' => $req->input('volunteer'),
+            'description' => $req->input('description'),
+            'campaign_name' => $req->input('campaign_name'),
+            'campaign_image' => $pic,
+            'campaign_thumb' => $this->uploadThumb($pic),
+            'target_donation' => $donation,
+            'activate_status' => $req->input('activate_status'));
+        $message = 'Successfully edited the campaign!';
+        $alert = 'success';
+        Campaign::insert($data);
+        $notification = array(
+            'message' => $message, 
+            'alert-type' => $alert
+        );
+        return redirect('/panel/administrator/list_campaign/')->with($notification);
+    }*/
+
     public function editProcess(Request $req){
         $id = $req->input('id');
         $donation = explode("Rp. ", $req->input('target_donation'))[1];
@@ -124,16 +150,19 @@ class CampaignController extends Controller
             $message = 'Sorry, the campaign is not exists!';
             $alert = 'error'; 
         }else{
-            $pic = $this->upload($req->file('campaign_image'));
             $data = array(
                 'campaign_name' => $req->input('campaign_name'),
                 'description' => $req->input('description'),
-                'campaign_name' => $req->input('campaign_name'),
-                'campaign_image' => $pic,
-                'campaign_thumb' => $this->uploadThumb($pic),
                 'target_donation' => $donation,
                 'activate_status' => $req->input('activate_status')
             );
+            $pic = $req->file('campaign_image');
+            /*echo $pic;*/
+            if(!empty($pic)){
+                $pic = $this->upload($pic);
+                $data['campaign_image'] = $pic;
+                $data['campaign_thumb'] = $this->uploadThumb($pic);
+            }
             $message = 'Successfully edited the campaign!';
             $alert = 'success';
             Campaign::where('id', $id)->update($data);

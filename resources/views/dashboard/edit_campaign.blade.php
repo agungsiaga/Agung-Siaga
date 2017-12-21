@@ -27,7 +27,8 @@
               </div>
               <!-- /.form-group -->
               <div class="form-group">
-                <label>Campaign Image</label>
+                <label>Campaign Image</label><br>
+                <img src='/uploads/{{ $campaign->campaign_thumb }}'>
                 {!! Form::file('campaign_image', ['autofocus']) !!}
               </div>
               <!-- /.form-group -->

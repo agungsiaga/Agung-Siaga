@@ -60,13 +60,13 @@
               <div class="form-group">
                   <label>Activate Status</label>
                   {{ Form::select('activate_status', [
-                     '0' => 'Activate',
-                     '1' => 'Inactivate']
+                     '1' => 'Activate',
+                     '0' => 'Inactivate']
                   ) }}
               </div>
               <!-- /.form-group -->
               <div class="form-group">
-                <label>Profile Picture</label>
+                <label>Profile Picture</label><br>
                 <img src='/uploads/{{ $volunteer->thumbnail }}'>
                 {!! Form::file('profile_picture', ['autofocus']) !!}
               </div>

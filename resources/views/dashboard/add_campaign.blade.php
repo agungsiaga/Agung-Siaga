@@ -19,44 +19,18 @@
             <div class="col-md-6">
               <div class="form-group">
                 <label>Campaign Name</label>
-                 {!! Form::text('full_name', '', ['class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Full Name']) !!}
+                 {!! Form::text('campaign_name', '', ['class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Campaign Name']) !!}
               </div>
               <!-- /.form-group -->
               <div class="form-group">
-                <label>Address</label>
-                 {!! Form::text('address', '', ['class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Address']) !!}
+                <label>Volunteer Email</label>
+                 {!! Form::email('volunteer_email', '', ['class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Email']) !!}
               </div>
               <!-- /.form-group -->
               <div class="form-group">
-                <label>Age</label>
-                 {!! Form::text('age', '', ['class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Age']) !!}
+                <label>Target Donation</label>
+                 {!! Form::text('target_donation', '', ['class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Target Donation']) !!}
               </div>
-              <!-- /.form-group -->
-              <div class="form-group">
-                <label>Identity Number</label>
-                 {!! Form::text('identity_number', '', ['class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Identity Number']) !!}
-              </div>
-              <div class="form-group">
-                <label>Phone Number</label>
-                 {!! Form::text('phone_number', '', ['class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Phone Number']) !!}
-              </div>
-              <!-- /.form-group -->
-              <div class="form-group">
-                <label>Email</label>
-                 {!! Form::email('email', '', ['class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Email']) !!}
-              </div>
-              <!-- /.form-group -->
-              <div class="form-group">
-                <label>Password</label>
-                 {!! Form::password('password', ['class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Password']) !!}
-              </div>
-              <!-- /.form-group -->
-            </div>
-            <!-- /.col -->
-            <div class="col-md-6">
-              <div class="form-group">
-                <label>Description</label>
-                {!! Form::textarea('description', '', ['id' => 'summary-ckeditor', 'class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Description']) !!}              </div>
               <!-- /.form-group -->
               <div class="form-group">
                   <label>Activate Status</label>
@@ -70,6 +44,13 @@
                 <label>Profile Picture</label>
                 {!! Form::file('profile_picture', ['required', 'autofocus']) !!}
               </div>
+            </div>
+            <!-- /.col -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Description</label>
+                {!! Form::textarea('description', '', ['id' => 'summary-ckeditor', 'class' => 'form-control', 'required', 'autofocus', 'placeholder' => 'Description']) !!}
+              </div>
               <!-- /.form-group -->
             </div>
           </div>
@@ -77,7 +58,7 @@
         </div>
         <!-- /.box-body -->
         <div class="box-footer">
-          {!! Form::submit('Add New Volunteer', ['class' => 'btn btn-primary']) !!}
+          {!! Form::submit('Add New Campaign', ['class' => 'btn btn-primary']) !!}
         </div>
         {!! Form::close() !!}
       </div>

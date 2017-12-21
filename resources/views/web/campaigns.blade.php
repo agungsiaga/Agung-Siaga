@@ -161,9 +161,9 @@
                     	<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
                         	<div class="image-box">
                                 <div class="image">
-                                    <img src="/uploads/{{ $dCampaign->campaign_thumb }}" alt="" />
+                                    <img src="/uploads/{{ $dCampaign->campaign_image }}" alt="" />
                                     <div class="overlay-box">
-                                        <a href="causes-single.html" class="search-btn"><span class="icon fa fa-link"></span></a>
+                                        <a href="/detail-campaign/{{ $dCampaign->id }}" class="search-btn"><span class="icon fa fa-link"></span></a>
                                     </div>
                                 </div>
                             </div>
