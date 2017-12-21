@@ -23,7 +23,7 @@ $(function() {
         },
         columns: [
         {data: 'campaign_name', name: 'campaign_name'},
-        {data: 'full_name', name: 'tb_volunteer.full_name'},
+        {data: 'full_name', name: 'full_name'},
         {data: 'collected_donation', name: 'collected_donation'},
         {data: 'target_donation', name: 'target_donation'},
         {data: 'percentage', name: 'percentage', searchable: false},

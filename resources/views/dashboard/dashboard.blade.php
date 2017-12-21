@@ -4,9 +4,9 @@
 <section class="content">
   <!-- Default box -->
     <div class="callout callout-info">
-      <h4>Welcome!</h4>
+      <h4>Welcome Administrator!</h4>
 
-      <p>Welcome .</p>
+      <p>A panel administrator of Agung Siaga</p>
     </div>
   <!-- Small boxes (Stat box) -->
   <div class="row">

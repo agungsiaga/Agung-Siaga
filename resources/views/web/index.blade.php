@@ -23,28 +23,28 @@
 <body>
 
 <div class="page-wrapper">
- 	
+    
     <!-- Preloader -->
     <div class="preloader"></div>
- 	
+    
     <!-- Main Header -->
     <header class="main-header">
-    	<!-- Header Top One-->
-    	<div class="header-top-one">
-        	<div class="auto-container">
-            	<div class="clearfix">
+        <!-- Header Top One-->
+        <div class="header-top-one">
+            <div class="auto-container">
+                <div class="clearfix">
                     
                     <!--Top Left-->
                     <div class="top-left top-links">
-                    	<ul class="clearfix">
-                        	<li><span class="icon fa fa-phone"></span> <a href="#">(+6281) 455667778</a></li>
+                        <ul class="clearfix">
+                            <li><span class="icon fa fa-phone"></span> <a href="#">(+6281) 455667778</a></li>
                             <li><span class="icon fa fa-envelope-o"></span> <a href="#">info@agungsiaga.com</a></li>
                         </ul>
                     </div>
                     
                     <!--Top Right-->
                     <div class="top-right">
-                    	<div class="social-icon">
+                        <div class="social-icon">
                             <a href="#"><span class="fa fa-facebook"></span></a>
                             <a href="#"><span class="fa fa-twitter"></span></a>
                             <a href="#"><span class="fa fa-google-plus"></span></a>
@@ -74,7 +74,7 @@
                             <!-- Main Menu -->
                             <nav class="main-menu">
                                 <div class="navbar-header">
-                                    <!-- Toggle Button -->    	
+                                    <!-- Toggle Button -->      
                                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
@@ -114,7 +114,7 @@
                     <!-- Main Menu -->
                     <nav class="main-menu">
                         <div class="navbar-header">
-                            <!-- Toggle Button -->    	
+                            <!-- Toggle Button -->      
                             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -142,11 +142,11 @@
     
     <!--Main Slider-->
     <section class="main-slider" data-start-height="800" data-slide-overlay="yes">
-    	
+        
         <div class="tp-banner-container">
             <div class="tp-banner">
                 <ul>
-                	
+                    
                     <li data-transition="fade" data-slotamount="1" data-masterspeed="1000" data-thumb="images/foto/SE/2017_09_25_33014_1506326580._large.jpg"  data-saveperformance="off"  data-title="Awesome Title Here">
                     <img src="images/foto/SE/2017_09_25_33014_1506326580._large.jpg"  alt=""  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat"> 
                     
@@ -326,47 +326,47 @@
     
     <!--Services Section-->
     <section class="services-section">
-    	<div class="auto-container">
-        	<!--Sec Title-->
+        <div class="auto-container">
+            <!--Sec Title-->
             <div class="sec-title">
-            	<h2>What We Do</h2>
+                <h2>What We Do</h2>
                 <div class="separator"></div>
                 <div class="text">We are always looking out and timely help disadvantaged, see our latest campaign, and if can you pledonaa <br> small part but its significance for us to help people</div>
             </div>
             
             <div class="row clearfix">
-            	<!--Service Style One-->
-            	<div class="service-style-one col-md-4 col-sm-6 col-xs-12">
-            		<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    	<div class="icon-box">
-                        	<span class="icon flaticon-coin-1"></span>
+                <!--Service Style One-->
+                <div class="service-style-one col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="icon-box">
+                            <span class="icon flaticon-coin-1"></span>
                         </div>
                         <h3><a href="services.html">Donation</a></h3>
                         <div class="text">Aenean aliquam egestas augue, eu venenatis massa maximus sed. Nam convallis vestibulum purus ac egestas.... </div>
                     </div>
-            	</div>
+                </div>
                 
                 <!--Service Style One-->
-            	<div class="service-style-one col-md-4 col-sm-6 col-xs-12">
-            		<div class="inner-box wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">
-                    	<div class="icon-box">
-                        	<span class="icon flaticon-charity"></span>
+                <div class="service-style-one col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box wow fadeIn" data-wow-delay="500ms" data-wow-duration="1500ms">
+                        <div class="icon-box">
+                            <span class="icon flaticon-charity"></span>
                         </div>
                         <h3><a href="services.html">VOLUNTEER</a></h3>
                         <div class="text">Aenean aliquam egestas augue, eu venenatis massa maximus sed. Nam convallis vestibulum purus ac egestas.... </div>
                     </div>
-            	</div>
+                </div>
                 
                 <!--Service Style One-->
-            	<div class="service-style-one col-md-4 col-sm-6 col-xs-12">
-            		<div class="inner-box wow fadeIn" data-wow-delay="1000ms" data-wow-duration="1500ms">
-                    	<div class="icon-box">
-                        	<span class="icon flaticon-heart-2"></span>
+                <div class="service-style-one col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box wow fadeIn" data-wow-delay="1000ms" data-wow-duration="1500ms">
+                        <div class="icon-box">
+                            <span class="icon flaticon-heart-2"></span>
                         </div>
                         <h3><a href="services.html">FUNDRAISE</a></h3>
                         <div class="text">Aenean aliquam egestas augue, eu venenatis massa maximus sed. Nam convallis vestibulum purus ac egestas.... </div>
                     </div>
-            	</div>
+                </div>
                 
             </div>
         </div>
@@ -374,18 +374,18 @@
     <!--End We Do Section-->    
     <!--Counter Section-->
     <section class="counter-section" style="background-image:url(images/foto/SE/5.jpg);">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	<!--Content Column-->
-            	<div class="content-column col-md-5 col-sm-12 col-xs-12">
-                	<div class="inner-box">
-                    	<h3>We are served to Agung Mount refugees to reduce their suffer!</h3>
+        <div class="auto-container">
+            <div class="row clearfix">
+                <!--Content Column-->
+                <div class="content-column col-md-5 col-sm-12 col-xs-12">
+                    <div class="inner-box">
+                        <h3>We are served to Agung Mount refugees to reduce their suffer!</h3>
                         <a href="#" class="theme-btn btn-style-one">Let's join with us!</a>
                     </div>
                 </div>
                 <!--Counter Column-->
                 <div class="counter-column col-md-7 col-sm-12 col-xs-12">
-                	
+                    
                     <div class="fact-counter">
                         <div class="row clearfix">
                         
@@ -433,21 +433,21 @@
     
     <!--Latest Causes Section-->
     <section class="latest-causes-section">
-    	<div class="auto-container">
-        	<!--Sec Title-->
-        	<div class="sec-title">
-            	<h2>RECENT CAMPAIGNS</h2>
+        <div class="auto-container">
+            <!--Sec Title-->
+            <div class="sec-title">
+                <h2>RECENT CAMPAIGNS</h2>
                 <div class="separator"></div>
                 <div class="text">We are always looking out and timely help disadvantaged, see our latest campaign, and if can you pledonaa <br> small part but its significance for us to help people</div>
             </div>
             
             <div class="row clearfix">
-            	
+                
                 <!--Default Cause Box-->
                 @foreach ($campaign as $dCampaign)
-            	<div class="default-cause-box col-md-4 col-sm-6 col-xs-12">
-                	<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    	<div class="image-box">
+                <div class="default-cause-box col-md-4 col-sm-6 col-xs-12">
+                    <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+                        <div class="image-box">
                             <div class="image">
                                 <img src="/uploads/{{ $dCampaign->campaign_image }}" alt="" />
                                 <div class="overlay-box">
@@ -456,16 +456,16 @@
                             </div>
                         </div>
                         <div class="lower-content">
-                        	<h3><a href="/detail-campaign/{{ $dCampaign->id }}">{{ $dCampaign->campaign_name }}</a></h3>
+                            <h3><a href="/detail-campaign/{{ $dCampaign->id }}">{{ $dCampaign->campaign_name }}</a></h3>
                             <div class="text">{!! str_limit($dCampaign->description, $limit = 80, $end = '...') !!}</div>
                             
                             <div class="donate-bar wow fadeIn" data-wow-delay="0ms" data-wow-duration="0ms">
-                            	<div class="bar-inner"><div class="bar" style="width:48%;"></div></div>
+                                <div class="bar-inner"><div class="bar" style="width:48%;"></div></div>
                             </div>
                             <!--donate info-->
                             <div class="donate-info clearfix">
-                            	<div class="percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="48">0</span>%</div></div>
-                            	<div class="amount raised">RAISED: Rp. {{ $dCampaign->collected_donation }}</div>
+                                <div class="percentage"><div class="count-box"><span class="count-text" data-speed="2000" data-stop="48">0</span>%</div></div>
+                                <div class="amount raised">RAISED: Rp. {{ $dCampaign->collected_donation }}</div>
                                 <div class="amount goal">GOAL: Rp. {{ $dCampaign->target_donation }}</div>
                             </div>
                             <a href="/donate/{{ $dCampaign->id }}" class="theme-btn btn-style-three donate-btn">DONATE NOW!</a>
@@ -507,18 +507,18 @@
     <!--End Subscribe Style One-->
     <!--Donation Section-->
     <section class="donation-section" style="background-image:url(images/foto/SE/2.jpg);">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	<!--Content Column-->
-            	<div class="content-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner">
-                    	<h2>BECOME A VOLUNTEER</h2>
+        <div class="auto-container">
+            <div class="row clearfix">
+                <!--Content Column-->
+                <div class="content-column col-md-6 col-sm-12 col-xs-12">
+                    <div class="inner">
+                        <h2>BECOME A VOLUNTEER</h2>
                         <div class="text">The ship set ground on the shore of this uncharted a desert isle with that this group would somehow form a family that is the wayThe ship set ground on the shore of this uncharted a desert isle with that this group.</div>
                     </div>
                 </div>
                 <!--Form Column-->
                 <div class="form-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner">
+                    <div class="inner">
                         <!--Donate Form-->
                         <div class="donate-form">
                             <div class="form-box">
@@ -568,10 +568,10 @@
     <!--End Donation Section-->
     <!--News Section-->
     <section class="news-section">
-    	<div class="auto-container">
-        	<!--Sec Title-->
+        <div class="auto-container">
+            <!--Sec Title-->
             <div class="sec-title">
-            	<h2> Quotes </h2>
+                <h2> Quotes </h2>
                 <div class="separator"></div>
                 <div class="text">"We are always looking out and timely help disadvantaged, see our latest campaign, and if can you pledonaa"</div>
             </div>
@@ -581,9 +581,9 @@
     
     <!--Main Footer-->
     <footer class="main-footer">
-    	<div class="widgets-section">
-        	<div class="auto-container">
-            	<div class="row clearfix">
+        <div class="widgets-section">
+            <div class="auto-container">
+                <div class="row clearfix">
                     <!--Footer Column-->
                     <div class="footer-column col-lg-3 col-md-4 col-sm-6 col-xs-12">
                         <div class="footer-widget contact-widget">
@@ -621,34 +621,34 @@
                         </div>
                     </div>
                     <!--Footer Column-->
-                	<div class="footer-column col-lg-5 col-md-4 col-sm-6 col-xs-12">
-                    	<div class="footer-widget partner-widget">
-                        	<h2>OUR PARTNERS</h2>
+                    <div class="footer-column col-lg-5 col-md-4 col-sm-6 col-xs-12">
+                        <div class="footer-widget partner-widget">
+                            <h2>OUR PARTNERS</h2>
                             <!--footer sponsors slider-->
                             <div class="footer-sponsors-slider owl-carousel owl-theme">
-                            	<div class="slide">
-                                	<a href="#"><img src="images/sponsors/footer-sponsor-1.png" alt="" /></a>
+                                <div class="slide">
+                                    <a href="#"><img src="images/sponsors/footer-sponsor-1.png" alt="" /></a>
                                 </div>
                                 <div class="slide">
-                                	<a href="#"><img src="images/sponsors/footer-sponsor-2.png" alt="" /></a>
+                                    <a href="#"><img src="images/sponsors/footer-sponsor-2.png" alt="" /></a>
                                 </div>
                                 <div class="slide">
-                                	<a href="#"><img src="images/sponsors/footer-sponsor-3.png" alt="" /></a>
+                                    <a href="#"><img src="images/sponsors/footer-sponsor-3.png" alt="" /></a>
                                 </div>
                                 <div class="slide">
-                                	<a href="#"><img src="images/sponsors/footer-sponsor-4.png" alt="" /></a>
+                                    <a href="#"><img src="images/sponsors/footer-sponsor-4.png" alt="" /></a>
                                 </div>
                                 <div class="slide">
-                                	<a href="#"><img src="images/sponsors/footer-sponsor-1.png" alt="" /></a>
+                                    <a href="#"><img src="images/sponsors/footer-sponsor-1.png" alt="" /></a>
                                 </div>
                                 <div class="slide">
-                                	<a href="#"><img src="images/sponsors/footer-sponsor-2.png" alt="" /></a>
+                                    <a href="#"><img src="images/sponsors/footer-sponsor-2.png" alt="" /></a>
                                 </div>
                                 <div class="slide">
-                                	<a href="#"><img src="images/sponsors/footer-sponsor-3.png" alt="" /></a>
+                                    <a href="#"><img src="images/sponsors/footer-sponsor-3.png" alt="" /></a>
                                 </div>
                                 <div class="slide">
-                                	<a href="#"><img src="images/sponsors/footer-sponsor-4.png" alt="" /></a>
+                                    <a href="#"><img src="images/sponsors/footer-sponsor-4.png" alt="" /></a>
                                 </div>
                             </div>
                             
@@ -668,13 +668,13 @@
             </div>
         </div>
         <div class="footer-bottom">
-        	<div class="auto-container">
-            	<div class="row clearfix">
-                	<div class="column col-md-6 col-sm-6 col-xs-12">
-                    	<div class="copyright">&copy; 2017 Agung Siaga - The Agung Siaga Specialists All Rights Reserved</div>
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="column col-md-6 col-sm-6 col-xs-12">
+                        <div class="copyright">&copy; 2017 Agung Siaga - The Agung Siaga Specialists All Rights Reserved</div>
                     </div>
                     <div class="column col-md-6 col-sm-6 col-xs-12">
-                    	<div class="footer-icon">
+                        <div class="footer-icon">
                             <a href="#"><span class="fa fa-facebook"></span></a>
                             <a href="#"><span class="fa fa-twitter"></span></a>
                             <a href="#"><span class="fa fa-google-plus"></span></a>
