@@ -247,7 +247,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="/panel/administrator/list_donation"><i class="fa fa-circle-o"></i> Lists</a></li>
-            <li><a href="../UI/icons.html"><i class="fa fa-circle-o"></i> Pending Confirms <span class="pull-right-container">
+            <li><a href="/panel/administrator/list_donation_requested"><i class="fa fa-circle-o"></i> Pending Confirms <span class="pull-right-container">
               <small class="label pull-right bg-red">3</small>
             </span></a></li>
           </ul>

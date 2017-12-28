@@ -20,22 +20,22 @@ Route::group(['middleware' => ['web']], function(){
 	Route::get('contact-us', 'WebController@indexContactUs');
 	Route::get('campaigns', 'WebController@indexCampaigns');
 	Route::get('detail-campaign/{id}', 'WebController@indexDetailCampaign');
-
 	/* Auth */
 	Route::get('login', 'Auth\AuthController@login');
 	Route::post('login', 'Auth\AuthController@proses_login');
 	Route::post('register', 'Auth\AuthController@registerProcess');
 	Route::get('logout', 'Auth\AuthController@admin_logout');
 	Route::get('verify_email', 'Auth\AuthController@processVerifyEmail');
-
-
-
 });
 
 Route::group(['middleware' => ['volunteer']], function(){
 	Route::group(['prefix' => 'panel'], function(){
 		Route::group(['prefix' => 'volunteer'], function(){
 			Route::get('/', 'Volunteer\CampaignController@index');
+			Route::get('add_campaign', 'Volunteer\CampaignController@add');
+			Route::post('add_campaign', 'Volunteer\CampaignController@addCampaign');
+			Route::get('delete_campaign/{id}', 'Volunteer\CampaignController@deleteProcess');
+			Route::get('data_campaign', 'Volunteer\CampaignController@dataCampaign');
 		});
 	});
 });
@@ -55,6 +55,8 @@ Route::group(['middleware' => ['admin']], function(){
 			/* Donation */
 			Route::get('list_donation', 'Administrator\DonationController@index');
 			Route::get('data_donation', 'Administrator\DonationController@dataDonation');
+			Route::get('list_donation_requested', 'Administrator\DonationController@indexRequested');
+			Route::get('data_donation_requested', 'Administrator\DonationController@dataDonationRequested');
 			/* Volunteer */
 			Route::get('volunteer', 'Administrator\VolunteerController@index');
 			Route::get('add_volunteer', 'Administrator\VolunteerController@add');
